@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-box">
+      <h2 class="heading">
+        To-Do List <img src="list.webp" width="30px" height="30px" alt="list" />
+      </h2>
+      <div class="add-field">
+        <input
+          id="value"
+          class="input"
+          type="text"
+          placeholder="Add your task"
+        />
+        <button onclick="addList()" class="add-btn">Add</button>
+      </div>
+      <ul id="list-box" class="list-box">
+        <!-- <li class="list">
+          <span style="display: flex; gap: 5px"
+            ><input class="checkbox" type="radio" />
+            <p>Riyan Ghouri is good boy and a Devoloper</p></span
+          >
+          <button class="delete">X</button>
+        </li> -->
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
